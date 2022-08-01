@@ -35,6 +35,9 @@
 a {
   text-decoration: none;
 }
+.mt-50{
+  margin-top: 50px;
+}
 /* Header Start */
 .header {
   padding: 15px 30px;
@@ -164,12 +167,13 @@ a {
 /* area start  */
 .area{
   /* background-color: #F2F5FA; */
-  background-image: url(/Bioxlab-28.07.2022-master/image/shape-bg-01.png);
+  background-image: url("/Bioxlab-28.07.2022-master/image/shape-bg-01.png");
   background-color: #f2f5faa4;
   padding-bottom: 60px;
+  padding: 1px;
 }
 .area .search-back{
-  /* margin-top: 20px; */
+  margin-top: 8 0px;
   padding: 50px 45px;
   background-color: #fff;
   border-radius: 5px;
@@ -264,6 +268,41 @@ a {
   width: 100%;
   padding-right: 60px;
 }
+.about .about-menu .about-img{
+  position: relative;
+}
+
+.about .about-menu .about-img-info{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: #10D0A1;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  left: 20%;
+  padding: 50px 50px;
+  bottom: -100px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+
+}
+.about .about-menu .about-img-info p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.about .about-menu .about-img-info p .number{
+  font-size: 100px;
+  /* font-weight: bold; */
+  font-weight: 900;
+}
+.about .about-menu .about-img-info p .number-2{
+  font-size: 20px;
+  font-weight: bold;
+}
 .about .about-menu .about-us{
   width: 50%;
   padding-top: 120px;
@@ -290,6 +329,214 @@ a {
 .about .about-menu .about-us .about-items p{
   margin-bottom: 45px;
 }
+.about .about-menu .about-us .about-list .about-list-1 i{
+  padding-top: 5px;
+  padding-right: 10px;
+  display: block;
+  color: #10D0A1;
+  font-size: 20px;
+}
+.about .about-menu .about-us .about-list .about-list-2 ul li{
+  padding-top: 3px;
+  font-size: 17px;
+}
 
+.about .about-menu .about-us .history-items .history-1 a{
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 700;
+  padding: 25px 45px;
+  background-color: #0E63FF;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.about .about-menu .about-us .history-items .history-2{
+  padding-left: 20px;
+}
+.about .about-menu .about-us .history-items .history-2 a{
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 700;
+  padding: 25px 45px;
+  background-color: #13D9A8;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  
+}
+.about .about-footer{
+  padding-bottom: 100px;
+  padding-top: 40px;
+  color: #171151;
+  line-height: 26px;
+  flex-wrap: wrap;
+  margin-top: 250px;
+  
+} 
+.about .about-footer .about-footer-1,.about-footer-2,.about-footer-3,.about-footer-4{
+  border: 1px solid #eceef3;
+  border-radius: 10px;
+  /* min-width: 120px; */
+  width: 23%;
+  /* padding: 120px 0; */
+  /* padding-left: 15px; */
+  /* margin-right: 10px; */
+  padding: 75px 20px 70px 25px;
+  margin-right: 15px;
+}
+.about .about-footer .about-footer-1 .about-p .h4 span,.about-footer-2 .about-p .h4 span,.about-footer-3 .about-p .h4 span,.about-footer-4 .about-p .h4 span{
+  /* width: 25%; */
+  font-size: 48px;
+  font-weight: 700;
+}
+.about .about-footer .about-footer-1 .about-i,.about-footer-2 .about-i,.about-footer-3 .about-i,.about-footer-4 .about-i{
+  margin-bottom: 15px;
+}
+.about .about-footer .about-footer-1 .about-i i,.about-footer-2 .about-i i,.about-footer-3 .about-i i, .about-footer-4 .about-i i{
+  background-color: #10d0a1;
+  clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
+  display: inline-block;
+  height: 20px;
+  width: 18px;
+  transform: translateY(5px);
+  transition: all 0.3s ease-out 0s;
+  flex: 0 0 auto;
+  margin-right: 10px;
+  animation: firefly 2.5s linear infinite; 
+}
 
-
+/* about end  */
+/* bioxlab start  */
+.bioxlab{
+  margin-top: 40px;
+  background-image: url(../image/shape-bg-01.png);
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #F2F5FA;
+  background-position: center;
+}
+.bioxlab .bioxlab-gallery .bioxlab-top{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+.bioxlab .bioxlab-gallery .bioxlab-top p{
+  color: #0e63ff;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+.bioxlab .bioxlab-gallery .bioxlab-top h3{
+  font-size: 40px;
+  margin-bottom: 70px;
+  color: #171151;
+}
+.bioxlab .bioxlab-gallery .bioxlab-img{
+  width: 100%;
+  margin-bottom: 50px;
+}
+.bioxlab .bioxlab-gallery .bioxlab-img .bioxlab-img1{
+  width: 33.333%;
+  margin: auto 15px;
+}
+.bioxlab .bioxlab-gallery .bioxlab-img .bioxlab-img1 img{
+  width: 100%;
+}
+.bioxlab .bioxlab-gallery .bioxlab-button{
+  width: 100%;
+  text-align: center;
+  margin-top: 70px;
+  padding-bottom: 100px;
+}
+.bioxlab .bioxlab-gallery .bioxlab-button a{
+  background-color: #10d0a1;
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 700;
+  padding: 25px 45px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #fff;
+}
+/* bioxlab end  */
+ /* choose start  */
+ .choose{
+  background-color: #171151;
+ }
+ .choose .choose-items{
+  width: 100%;
+ }
+.choose .choose-items .choose-top{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 40px;
+}
+.choose .choose-items .choose-top p{
+  color: #0e63ff;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+.choose .choose-items .choose-top h3{
+  font-size: 45px;
+  margin-bottom: 70px;
+  color: #fff;
+}
+.choose .choose-items .choose-middle{
+  width: 100%;
+  flex-wrap: wrap;
+  padding-bottom: 90px;
+}
+.choose .choose-items .choose-middle .choose-middle-1{
+  width: 23%;
+  border: 1px solid #fff;
+  border: none;
+  margin-right: 10px;
+  padding-left: 30px;
+}
+.choose .choose-items .choose-middle .choose-middle-1 .choose-i{
+  height: 115px;
+  width: 115px;
+  text-align: center;
+  line-height: 130px;
+  background-color: rgb(14 99 255 / 10%);
+  border-radius: 50%;
+  margin-bottom: 40px;
+}
+.choose .choose-items .choose-middle .choose-middle-1 .choose-i i{
+  font-size: 45px;
+  color: #0e63ff;
+}
+.choose .choose-items .choose-middle .choose-middle-1 .choose-p h4{
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.choose .choose-items .choose-middle .choose-middle-1 .choose-p p{
+  color: #a9b7d1;
+  font-size: 15px;
+}
+.choose .choose-items .choose-forms{
+  text-align: center;
+  padding-bottom: 100px;
+}
+.choose .choose-items .choose-forms span{
+  font-size: 18px;
+  color: #a9b7d1;
+  font-weight: 500;
+}
+.choose .choose-items .choose-forms span a{
+  color: #fff;
+  text-transform: uppercase;
+}
+/* choose end  */
+/* book start  */
