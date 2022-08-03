@@ -540,3 +540,102 @@ a {
 }
 /* choose end  */
 /* book start  */
+.book{
+  width: 100%;
+  /* height: 100%; */
+}
+.book .book-items{
+  flex-wrap: wrap;
+  width: 100%;
+  
+}
+.book .book-items .book-img{
+  width: 41%;
+  height: 100%;
+  /* padding: 0; */
+  /* flex: 0 0  auto; */
+}
+.book .book-items .book-img img{
+  width: 100%;
+  height: 100%;
+}
+.book .book-items .book-visit{
+  padding: 0;
+  width: 58%;
+}
+.book .book-items .book-visit .book-section{
+  padding: 130px 50px;
+}
+.book .book-items .book-visit .book-section h4{
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #171151;
+  font-weight: 700;
+}
+.book .book-items .book-visit .book-section h4 i{
+  margin-right: 15px;
+  color: #0e63ff;
+  /* font-weight: 100; */
+
+}
+.book .book-items .book-visit .book-input{
+  flex-wrap: wrap;
+  width: 100%;
+}
+.book .book-items .book-visit .book-input .book-input-1,.book-input-2,.book-input-3,.book-input-4,.book-input-5{
+  width: 50%;
+}
+.book .book-items .book-visit .book-input .book-input-1 input{
+  width: 100%;
+  height: 60px;
+  border: 1px solid #eff1f6;
+  border-radius: 5px;
+  margin-bottom: 25px;
+  padding: 0 20px;
+  
+}
+.book .book-items .book-visit .book-input .book-input-5{
+  width: 100%;
+}
+.book .book-items .book-visit .book-input .book-input-5 input{
+  width: 100%;
+  height: 170px;
+  border: 1px solid #eff1f6;
+  padding-top: 25px;
+  padding-left: 20px;
+  border-radius: 5px;
+  resize: vertical;
+  margin: 0;
+  line-height: inherit;
+}
+.book .book-items .book-visit .book-input .book-button{
+  width: 33.33333333%;
+  margin-top: 25px;
+}
+.book .book-items .book-visit .book-input .book-button button{
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 700;
+  padding: 25px 45px;
+  background-color: #0E63FF;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+}
+.book .book-items .book-visit .book-input .book-span{
+  width: 66.66666667%;
+  text-align: end;
+  margin-top: 45px;
+}
+.book .book-items .book-visit .book-input .book-span span{
+  font-size: 18px;
+  font-weight: 500;
+  color: #8a879f;
+}
+.book .book-items .book-visit .book-input .book-span span a{
+  text-decoration: underline;
+  color: #0E63FF;
+}
