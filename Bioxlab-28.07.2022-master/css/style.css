@@ -929,3 +929,15 @@ a {
   
 }
 /* blog end  */
+/* footer start  */
+footer .footer-section{
+  background-color: #171151;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  max-width: 1140px;
+}
+wi-
+footer .footer-section .footer-items{
+  flex-wrap: wrap;
+  width: 100%;
+}
